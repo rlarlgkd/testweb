@@ -247,7 +247,7 @@ const DetailBar = ({
                 <Top>
                   <SubjectName font={19}>
                     {subject.과목명}{' '}
-                    {subject.subject_id.substring(13, 14) === '0' ? ( // 01?
+                    {/* {subject.subject_id.substring(13, 14) === '0' ? ( // 01?
                       <span style={{ fontSize: '13px' }}>
                         [{subject.subject_id.substring(14, 15)}반]
                       </span>
@@ -256,7 +256,7 @@ const DetailBar = ({
                       <span style={{ fontSize: '13px' }}>
                         [{subject.subject_id.substring(13, 15)}반]
                       </span>
-                    )}
+                    )} */}
                   </SubjectName>
                   <Tooltip title="즐겨찾기">
                     <BtnContainer>
@@ -312,9 +312,9 @@ const DetailBar = ({
                       <TableHead scope="row" corner={false}>
                         과목번호
                       </TableHead>
-                      <TableData corner={false}>
+                      {/* <TableData corner={false}>
                         {subject.subject_id.substring(5)}
-                      </TableData>
+                      </TableData> */}
                     </TableRow>
                     <TableRow>
                       <TableHead scope="row" corner={false}>
