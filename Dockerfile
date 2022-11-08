@@ -7,4 +7,4 @@ COPY package.json /usr/src/app/package.json
 RUN npm install --silent
 RUN npm install react-scripts -g --silent
 COPY . /usr/src/app
-RUN npm run
+RUN npm run start
